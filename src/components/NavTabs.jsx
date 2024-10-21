@@ -5,14 +5,6 @@ function NavTabs() {
 
     return (
         <ul className="nav nav-tabs">
-          <li className="nav-item">
-            <Link
-            to="/"
-            className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-            >
-            Home
-            </Link>
-          </li>
           <li className='nav-item'>
             <Link
             to='/AboutMe'
