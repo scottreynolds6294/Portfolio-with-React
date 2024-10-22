@@ -81,48 +81,50 @@ export default function Contact() {
         }
     };
     return (
-        <div>
-            <h1>Contact Page</h1>
+        <div className='contact-page'>
+            <h1>Contact Me</h1>
             <form onSubmit={handleSubmit} noValidate>
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    onBlur={handleBlur}
+                        type="text"
+                        id="name"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        onBlur={handleBlur}
                     />
                     {errors.name && <p style={{ color: "red" }}>{errors.name}</p>}
                 </div>
                 <div>
                     <label htmlFor="email">Email:</label>
                     <input
-                    type= "email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    onBlur={handleBlur}
+                        type="email"
+                        id="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        onBlur={handleBlur}
                     />
-                    {errors.email && <p style={{ color: "red"}}>{errors.email}</p>}
+                    {errors.email && <p style={{ color: "red" }}>{errors.email}</p>}
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
                     <textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    onBlur={handleBlur}
+                        id="message"
+                        name="message"
+                        value={formData.message}
+                        onChange={handleChange}
+                        onBlur={handleBlur}
                     />
-                    {errors.message && <p style={{ color: "red"}}>{errors.message}</p>}
+                    {errors.message && <p style={{ color: "red" }}>{errors.message}</p>}
                 </div>
-
-                <button type="submit">Submit</button>
-
+    
+                <div className="submit-button">
+                    <button type="submit">Submit</button>
+                </div>
             </form>
         </div>
     );
+    
 }
