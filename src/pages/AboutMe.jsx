@@ -3,7 +3,7 @@ export default function AboutMe() {
         <div className="about-page">
             <h1>About Me</h1>
         <div class="profile-picture">
-        <img src="../public/images/profile-picture.jpg" alt="profile picture"></img>
+        <img src="/images/profile-picture.jpg" alt="profile picture"></img>
         </div>
         <p> 
         My name is Scott Reynolds, a former general manger currently seeking to tranistion to a software engineering role. 

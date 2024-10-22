@@ -5,7 +5,7 @@ export default function Resume () {
             <h1>Resume</h1>
             <p>
                 Download my resume: {" "}
-                <a href="../public/resume/Scott-Reynolds-Resume.pdf" download="Scott-Reynolds-Resume.pdf">
+                <a href="/resume/Scott-Reynolds-Resume.pdf" download="Scott-Reynolds-Resume.pdf">
                     Click here to download
                 </a>
             </p>

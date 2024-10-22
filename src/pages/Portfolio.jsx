@@ -13,42 +13,42 @@ export default function Portfolio() {
                         <Project
                             title="Tech Blog Demo"
                             description="Express.js, Sequelize, Handlebars"
-                            imageUrl="../public/images/tech-blog.jpg"
+                            imageUrl="/images/tech-blog.jpg"
                             projectUrl="https://tech-blog-ikrx.onrender.com/"
                             githubUrl="https://github.com/scottreynolds6294/Tech-Blog"
                         />
                         <Project
                             title="Weather Dashboard"
                             description="JavaScript"
-                            imageUrl="../public/images/weather-dashboard.jpg"
+                            imageUrl="/images/weather-dashboard.jpg"
                             projectUrl="https://scottreynolds6294.github.io/Weather-Dashboard/"
                             githubUrl="https://github.com/scottreynolds6294/Weather-Dashboard"
                         />
                         <Project
                             title="Movie Database App"
                             description="Server Side API's"
-                            imageUrl="../public/images/movie-database.jpg"
+                            imageUrl="/images/movie-database.jpg"
                             projectUrl="https://natale565.github.io/movie-night/"
                             githubUrl="https://github.com/natale565/movie-night"
                         />
                         <Project
                             title="Note Taking App"
                             description="Back End Server Configuration"
-                            imageUrl="../public/images/notes-app.jpg"
+                            imageUrl="/images/notes-app.jpg"
                             projectUrl="https://note-taker-app-in84.onrender.com/"
                             githubUrl="https://github.com/scottreynolds6294/Note-Taker-App"
                         />
                         <Project
                             title="E-Commerce Back End"
                             description="PostgreSQL"
-                            imageUrl="../public/images/ecommerce-backend.jpg"
+                            imageUrl="/images/ecommerce-backend.jpg"
                             projectUrl="https://app.screencastify.com/v3/watch/qKKIHDRTjmB1yXZDvGhE"
                             githubUrl="https://github.com/scottreynolds6294/E-Commerce-Back-End"
                         />
                         <Project
                             title="Social Network RESTful API"
                             description="NoSQL, MongoDB, Express.js"
-                            imageUrl="../public/images/RESTful-API.jpg"
+                            imageUrl="/images/RESTful-API.jpg"
                             projectUrl="https://www.youtube.com/watch?v=jrtP9iGRfHw"
                             githubUrl="https://github.com/scottreynolds6294/Social-Networking-API"
                         />
